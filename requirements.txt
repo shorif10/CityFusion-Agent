@@ -1,0 +1,42 @@
+# LangChain and AI/ML dependencies
+langchain
+langchain-google-genai
+langchain-community
+langchain-core
+
+# Google Gemini API
+google-generativeai
+
+# Web scraping and search
+duckduckgo-search
+
+# HTTP requests
+requests
+httpx
+
+# Configuration and environment
+python-dotenv
+pydantic
+PyYAML
+ddgs
+
+# System monitoring
+psutil
+
+# Logging and utilities
+#rich  # For better console output
+#click  # Alternative CLI framework if needed
+
+# Development dependencies (optional)
+#pytest
+#pytest-cov
+#black
+#flake8
+#mypy
+
+# Documentation (optional)
+#sphinx
+#sphinx-rtd-theme
+
+# UI dependencies
+gradio

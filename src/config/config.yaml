@@ -1,0 +1,25 @@
+# Default configuration for CityFusion-Agent
+app_name: "CityFusion-Agent"
+version: "0.1.0"
+debug: false
+log_level: "INFO"
+
+# LLM Configuration
+llm:
+  model_name: "gemini-2.5-flash-lite"
+  temperature: 0.7
+  max_tokens: null
+
+# Weather Service Configuration
+weather:
+  base_url: "https://api.weatherstack.com/current"
+  timeout: 30
+
+# Agent Configurations
+agents:
+  weather_agent:
+    name: "Weather Agent"
+    description: "Specialized agent for weather-related queries and city climate information"
+    tools: ["weather_search", "city_search"]
+    max_iterations: 10
+    verbose: true
